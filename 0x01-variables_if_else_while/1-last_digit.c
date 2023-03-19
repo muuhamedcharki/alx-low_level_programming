@@ -1,10 +1,10 @@
 #include <stdlib.h>
 #include <time.h>
 #include <stdio.h>
-
 /**
  * main - main function
- * return : always 0
+ * discription: dis
+ * Return: always 0
  */
 int main(void)
 {
@@ -19,6 +19,6 @@ int main(void)
 	else if (l == 0)
 		printf("Last digit of %d is %d and is 0\n", n, l);
 	else
-		printf("Last digit of %d is %d ans is less than 6\n", n, l);
+		printf("Last digit of %d is %d and is less than 6 and is not 0\n", n, l);
 	return (0);
 }
